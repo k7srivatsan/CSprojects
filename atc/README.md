@@ -15,4 +15,4 @@ In the `atc/app/` directory, in the terminal, run the following command.
 ```
 flask run
 ```
-Then, open up Chrome and open the extension by clicking on the icon. Enter your username, phone number, and password and click 'submit.' This should open a new window that automatically logs into the USC login page with the given credentials and automatically fills out the form. At the end, it should display the successful screenshot and send a text message of it to the specified phone number.
+Then, open up Chrome and open the extension by clicking on the icon. Enter your username, phone number, and password and click 'submit.' This should open a new window that automatically logs into the USC login page with the given credentials and automatically fills out the form. At the end, it should display the successful screenshot and send a text message of it to the specified phone number. The project is complete with encryption and decryption, storing encrypted passwords in a firestore database. 
