@@ -102,10 +102,9 @@ def test():
     password = request.args.get('password')
     phone = request.args['phone_number']
     print(user,password,phone)
-    with open("/Users/keshavansrivatsan/Desktop/scope-f21/ATC/atc/app/private_key.pem", "rb") as k:
+    with open("./app/private_key.pem", "rb") as k:
         key = RSA.importKey(k.read())
     cipher = PKCS1_OAEP.new(key, hashAlgo=SHA256)
-<<<<<<< HEAD
 
     fixedPass = ""
     for i in range(len(password)):
@@ -117,9 +116,6 @@ def test():
     decrypted_password = cipher.decrypt(b64decode(fixedPass))
     decrypted_password = decrypted_password.decode("utf-8")
     print(decrypted_password)
-=======
-    decrypted_password = cipher.decrypt(b64decode(password))
->>>>>>> parent of 617f60a (incorrect padding issue resolved)
     result = get_trojan_check(user, decrypted_password, 'static')
 
     if (result==1):

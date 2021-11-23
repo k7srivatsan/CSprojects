@@ -168,7 +168,7 @@ def get_trojan_check(username,password,savefileto):
     driver.execute_script('arguments[0].scrollIntoView();',(qr_element))
 
     # save screenshot
-    driver.save_screenshot('/Users/keshavansrivatsan/Desktop/scope-f21/ATC/atc/app/static/trojancheck.png')
+    driver.save_screenshot('./app/static/trojancheck.png')
 
     driver.quit()
 
