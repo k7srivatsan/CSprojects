@@ -1,4 +1,5 @@
-Keshavan Srivatsan
+**Keshavan Srivatsan**
+
 Junior at USC
 Major: Applied and Computational Math
 Minor: Computer Science
