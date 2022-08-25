@@ -1,8 +1,8 @@
-Overview
-This project includes the ability to play scrabble with a computer player. 
+Overview <br />
+This project includes the ability to play scrabble with a computer player. <br />
 
-To Execute
-In the scrabble/ directory, in the terminal, run the following command.
+To Execute <br />
+In the scrabble/ directory, in the terminal, run the following command. <br />
 
-make
-./scrabble
+make <br />
+./scrabble <br />
