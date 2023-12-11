@@ -1,6 +1,6 @@
 **Keshavan Srivatsan**
 
-**Junior at USC**
+**Graduate of USC**
 
 **Major: Applied and Computational Math**
 
